@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build:live",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
-    "run:app": "./node_modules/.bin/ts-node -- ./index.ts",
+    "start:app": "./node_modules/.bin/ts-node -- ./index.ts",
     "test": "jest"
   },
   "keywords": [],
